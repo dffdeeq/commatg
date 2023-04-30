@@ -1,0 +1,11 @@
+/venv/
+/.idea/
+/.env
+/kafka-data/.kafka_cleanshutdown
+/kafka-data/.lock
+/kafka-data/cleaner-offset-checkpoint
+/volumes/redis/dump.rdb
+/kafka-data/log-start-offset-checkpoint
+/kafka-data/meta.properties
+/kafka-data/recovery-point-offset-checkpoint
+/kafka-data/replication-offset-checkpoint
