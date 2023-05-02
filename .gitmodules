@@ -1,6 +1,6 @@
 [submodule "commatg-api"]
-	path = commatg-api
-	url = https://github.com/dffdeeq/commatg-api
+	path = commatg_api
+	url = https://github.com/dffdeeq/commatg_api
 [submodule "commatg-bot"]
-	path = commatg-bot
-	url = https://github.com/dffdeeq/commatg-bot
+	path = commatg_bot
+	url = https://github.com/dffdeeq/commatg_bot
