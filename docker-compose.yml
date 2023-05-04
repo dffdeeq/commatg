@@ -4,7 +4,6 @@ services:
   zookeeper:
     platform: linux/amd64
     image: 'confluentinc/cp-zookeeper:latest'
-
     environment:
       ZOOKEEPER_CLIENT_PORT: 2181
       ZOOKEEPER_TICK_TIME: 2000
@@ -68,7 +67,7 @@ services:
     restart: always
     build: ./commatg_bot
     user: daemon
-    command: celery -A src worker -l INFO --purge --pool=gevent
+    command: celery -A src worker -l INFO --purge --pool=solo
     depends_on:
       - bot
     environment:

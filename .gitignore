@@ -9,3 +9,4 @@
 /kafka-data/recovery-point-offset-checkpoint
 /kafka-data/replication-offset-checkpoint
 /volumes/
+/backup/
